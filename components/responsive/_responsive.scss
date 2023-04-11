@@ -1,0 +1,30 @@
+$width-xxl: 1230px;
+$width-xl: 999px;
+$width-md: 799px;
+$width-sm: 649px;
+
+
+@mixin xxl {
+    @media (max-width: $width-xxl) {
+        @content;
+    }
+}
+
+
+@mixin xl {
+    @media (max-width: $width-xl) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media (max-width: $width-md) {
+        @content;
+    }
+}
+
+@mixin sm {
+    @media (max-width: $width-sm) {
+        @content;
+    }
+}

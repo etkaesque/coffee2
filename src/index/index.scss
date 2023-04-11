@@ -1,0 +1,339 @@
+@use '../../components/responsive/responsive';
+
+
+
+
+
+.video-wrapper {
+    position: relative;
+    margin-top: 50px;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    video {
+
+        height: 100vh;
+        object-fit: cover;
+        width: 100%;
+    }
+
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+
+    }
+
+
+
+    .page {
+        position: absolute;
+        top: 30%;
+        color: #F0EFEA;
+        width: 100%;
+        max-width: 1250px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+
+
+
+        h1 {
+            font-family: 'Karma', serif;
+            font-size: 3.5rem;
+            margin-bottom: 0px;
+            margin-top: 0px;
+
+            @include responsive.sm {
+
+                font-size: 2rem;
+
+            }
+
+        }
+
+        p {
+
+            font-family: 'Roboto', sans-serif;
+            margin-top: 0px;
+            font-size: 1.2rem;
+            margin-bottom: 50px;
+      
+
+
+            
+            @include responsive.sm {
+
+                font-size: 1.1rem;
+
+            }
+
+        }
+
+    }
+}
+
+
+main {
+
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 0px 0px 5px;
+    color: #3C2F24;
+
+
+
+    .page-image {
+
+        max-height: 670px;
+
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 30% 110%;
+        }
+    }
+
+
+
+
+    .landing-content {
+
+        margin-top: 30px;
+
+
+
+        .page-description {
+
+            padding-right: 30px;
+            text-align: center;
+
+
+
+            h1 {
+                font-family: 'Karma', serif;
+                font-size: 3.5rem;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+
+            p {
+                margin-top: 0px;
+                font-size: 1.2rem;
+            }
+
+
+
+        }
+
+
+
+    }
+
+    .section-content {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 50px;
+        margin-top: 100px;
+        font-size: 1.2rem;
+
+        @include responsive.xl {
+
+            grid-template-columns: 1fr;
+     
+    
+        }
+
+        .section-description {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            position: relative;
+
+            .leaf1 {
+
+                position: absolute;
+                top: 120px;
+                left: 70%;
+                opacity: 0.5;
+
+            }
+
+            .leaf2 {
+
+                position: absolute;
+                bottom: 200px;
+                left: 20%;
+                opacity: 0.5;
+
+            }
+
+            h2 {
+
+                font-family: 'Karma', serif;
+                font-size: 2rem;
+                font-weight: 600;
+
+            }
+
+
+
+
+        }
+
+
+
+
+    }
+
+    .organizations {
+
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr;
+        text-align: center;
+
+
+        @include responsive.xl {
+
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto 1fr 1fr 1fr auto;
+            gap: 10px;
+    
+        }
+
+
+
+
+        
+
+
+        span {
+
+
+            margin-top: 10px;
+            grid-column: 1/5;
+            font-weight: 200;
+
+            @include responsive.xl {
+
+              
+                grid-row: 4/5;
+        
+            }
+    
+    
+
+        }
+
+
+        h2 {
+            font-size: 3rem;
+            grid-row: 1 / 2;
+            grid-column: 1 / 5;
+            text-align: center;
+            padding-bottom: 30px;
+
+
+        }
+
+        .organization {
+
+            background-position: 50% 50%;
+            width: auto;
+            height: 175px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-bottom: 20px;
+
+            
+
+
+
+        }
+
+
+
+        .organization-1 {
+
+
+            background-image: url(/assets/svgs/fairtrade.svg);
+
+
+
+
+
+
+        }
+
+        .organization-2 {
+
+
+            background-image: url(/assets/svgs/organic.svg);
+
+
+
+        }
+
+        .organization-3 {
+
+
+            background-image: url(/assets/svgs/rainforest.svg);
+
+
+            
+            @include responsive.xl {
+
+              
+                grid-row: 3/4;
+        
+            }
+    
+
+
+
+
+
+        }
+
+
+        .organization-4 {
+
+            background-image: url(/assets/svgs/usda.svg);
+
+               
+            @include responsive.xl {
+
+              
+                grid-row: 3/4;
+        
+            }
+    
+
+
+
+
+
+        }
+
+
+    }
+
+
+}

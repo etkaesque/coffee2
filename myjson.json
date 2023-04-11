@@ -1,0 +1,367 @@
+[
+    {
+     "id": "c1a2b3d4",
+     "name": "Brazilian Sunrise",
+     "region": "South America",
+     "country": "Brazil",
+     "beans": "Arabica",
+     "roastLevel": "Light",
+     "image":"https://cdn.shopify.com/s/files/1/0831/4141/products/83883D04-3BB2-42A4-962D-ADC57088D343.png?v=1676460569&width=1946",
+     "altitude": {
+      "minAltitude": 900,
+      "maxAltitude": 1200
+     },
+     "processingMethod": "Natural",
+     "certification": [
+      "Organic",
+      "Rainforest Alliance"
+     ],
+     "description": "A bright and lively coffee with fruity notes and a smooth finish, perfect for your morning ritual."
+    },
+    {
+     "id": "e5f6g7h8",
+     "name": "Colombian Mountain Blend",
+     "region": "South America",
+     "country": "Colombia",
+     "beans": "Arabica",
+     "roastLevel": "Medium",
+     "image":"https://images.keurig.com/is/image/keurig/colombian-fair-trade-select-coffee-gmc-bag_en_general?fmt=png-alpha",
+     "altitude": {
+      "minAltitude": 1200,
+      "maxAltitude": 2000
+     },
+     "processingMethod": "Washed",
+     "certification": [
+      "Fair Trade",
+      "Rainforest Alliance"
+     ],
+     "description": "Experience the rich, balanced flavor of this Colombian classic, grown in the high-altitude mountains."
+    },
+    {
+     "id": "i9j0k1l2",
+     "name": "Sumatran Dark Roast",
+     "region": "Asia",
+     "country": "Indonesia",
+     "beans": "Robusta",
+     "roastLevel": "Dark",
+     "image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71rt4ZFQ0KL.jpg",
+     "altitude": {
+      "minAltitude": 800,
+      "maxAltitude": 1500
+     },
+     "processingMethod": "Wet Hulled",
+     "certification": [
+      "Rainforest Alliance",
+      "Organic"
+     ],
+     "description": "Indulge in the bold, earthy flavors of this full-bodied Indonesian coffee, perfect for a dark roast lover."
+    },
+    {
+     "id": "m3n4o5p6",
+     "name": "Ethiopian Yirgacheffe",
+     "region": "Africa",
+     "country": "Ethiopia",
+     "beans": "Arabica",
+     "roastLevel": "Medium-Light",
+     "image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51fJj0x+xyL.jpg",
+     "altitude": {
+      "minAltitude": 1800,
+      "maxAltitude": 2200
+     },
+     "processingMethod": "Washed",
+     "certification": [
+      "Fair Trade",
+      "Organic",
+      "Rainforest Alliance"
+     ],
+     "description": "Savor the vibrant flavors and delicate floral notes of this exceptional Ethiopian coffee."
+    },
+    {
+     "id": "q7r8s9t0",
+     "name": "Guatemalan Volcanic Blend",
+     "region": "Central America",
+     "country": "Guatemala",
+     "beans": "Arabica",
+     "roastLevel": "Medium-Dark",
+     "image":"https://cdn.shopify.com/s/files/1/0791/5609/products/2-lbs-wb-front.png?v=1430341467",
+     "altitude": {
+      "minAltitude": 1300,
+      "maxAltitude": 1700
+     },
+     "processingMethod": "Washed",
+     "certification": [
+      "Rainforest Alliance",
+      "Fair Trade"
+     ],
+     "description": "A complex and robust blend, grown in the volcanic soils of Guatemala, with hints of chocolate and spice."
+    },
+    {
+     "id": "IN-100",
+     "name": "Indian Monsoon Malabar",
+     "region": "Asia",
+     "country": "India",
+     "beans": "Arabica",
+     "roastLevel": "Medium",
+     "image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91gTdLrzxML._SL1500_.jpg",
+     "altitude": {
+      "minAltitude": 1000,
+      "maxAltitude": 1300
+     },
+     "processingMethod": "Monsooned",
+     "certification": [
+      "Organic",
+      "Fair Trade"
+     ],
+     "description": "Indian Monsoon Malabar is a unique coffee with a rich history. Exposed to monsoon winds during the processing stage, this medium roast coffee offers a distinct flavor profile characterized by low acidity, a heavy body, and notes of earthiness, chocolate, and spice. This exceptional coffee is grown at altitudes between 1,000 and 1,300 meters and is certified Organic and Fair Trade, ensuring sustainable and ethical practices."
+    },
+    {
+     "id": "y5z6a7b8",
+     "name": "Kenyan AA",
+     "region": "Africa",
+     "country": "Kenya",
+     "beans": "Arabica",
+     "roastLevel": "Medium-Dark",
+     "image":"https://cdn.shopify.com/s/files/1/2217/5179/products/medium_4147357e-cdf0-4422-998f-6da61627cbe8_700x700.jpg?v=1646680715",
+     "altitude": {
+      "minAltitude": 1600,
+      "maxAltitude": 1800
+     },
+     "processingMethod": "Washed",
+     "certification": [
+      "Fair Trade",
+      "Rainforest Alliance"
+     ],
+     "description": "Experience the bold, fruity notes and bright acidity of this premium Kenyan coffee, perfect for those seeking a distinctive taste."
+    },
+    {
+     "id": "c9d0e1f2",
+     "name": "Costa Rican Tarrazu",
+     "region": "Central America",
+     "country": "Costa Rica",
+     "beans": "Arabica",
+     "roastLevel": "Medium",
+     "image":"https://cdn.shopify.com/s/files/1/2217/5179/products/medium_fa32e5f8-5ffc-453d-8b16-9d477ad8c9f3.jpg?v=1646669316",
+     "altitude": {
+      "minAltitude": 1200,
+      "maxAltitude": 1800
+     },
+     "processingMethod": "Honey",
+     "certification": [
+      "Rainforest Alliance",
+      "Organic"
+     ],
+     "description": "Discover the sweet, citrusy flavors of this Costa Rican coffee, produced using the honey processing method for a unique taste."
+    },
+    {
+     "id": "g3h4i5j6",
+     "name": "Vietnamese Bold Blend",
+     "region": "Asia",
+     "country": "Vietnam",
+     "beans": "Mix",
+     "roastLevel": "Dark",
+     "image":"https://www.vietnamesecoffeeco.com/site/wp-content/uploads/2021/07/bobeans-%E2%94%90%E2%95%9C%E2%96%92%E2%94%A4.jpg",
+     "altitude": {
+      "minAltitude": 500,
+      "maxAltitude": 1000
+     },
+     "processingMethod": "Natural",
+     "certification": [
+      "Organic",
+      "Fair Trade"
+     ],
+     "description": "Bold and intense, this Vietnamese blend combines Arabica and Robusta beans for a rich, dark roast experience."
+    },
+    {
+     "id": "k7l8m9n0",
+     "name": "Tanzanian Peaberry",
+     "region": "Africa",
+     "country": "Tanzania",
+     "beans": "Arabica",
+     "roastLevel": "Medium-Light",
+     "image":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51D+JgpG3rL.jpg",
+     "altitude": {
+      "minAltitude": 1400,
+      "maxAltitude": 2000
+     },
+     "processingMethod": "Washed",
+     "certification": [
+      "Fair Trade",
+      "Rainforest Alliance",
+      "Organic"
+     ],
+     "description": "Savor the exquisite flavors of the Tanzanian Peaberry coffee, with its bright acidity and wine-like fruitiness."
+    },
+    {
+     "id": "o1p2q3r4",
+     "name": "Peruvian Andean Gold",
+     "region": "South America",
+     "country": "Peru",
+     "beans": "Arabica",
+     "roastLevel": "Medium",
+     "image":"https://cdn.shopify.com/s/files/1/0078/0038/9717/products/one-great-coffee-coffee-organic-peru-andes-gold-coffee-28356397006933.png?v=1640998556",
+     "altitude": {
+      "minAltitude": 1200,
+      "maxAltitude": 1800
+     },
+     "processingMethod": "Washed",
+     "certification": [
+      "Fair Trade",
+      "Organic"
+     ],
+     "description": "Explore the rich, velvety taste of Peruvian Andean Gold coffee, featuring a balanced body and sweet caramel notes."
+    },
+    {
+     "id": "s5t6u7v8",
+     "name": "Nicaraguan Mountain Delight",
+     "region": "Central America",
+     "country": "Nicaragua",
+     "beans": "Arabica",
+     "roastLevel": "Medium-Dark",
+     "image":"https://cdn.schema.io/spinn-marketplace/617aba7d81996a1d7a0b9361/749c9ee07e3714f55bcb5a148472bf74/485970BADGE%20BREW%20-%20GOLD%20MOUNTAIN",
+     "altitude": {
+      "minAltitude": 1100,
+      "maxAltitude": 1600
+     },
+     "processingMethod": "Natural",
+     "certification": [
+      "Rainforest Alliance",
+      "Fair Trade"
+     ],
+     "description": "Indulge in the rich, chocolatey flavors and nutty undertones of Nicaraguan Mountain Delight, a medium-dark roast coffee."
+    },
+    {
+     "id": "w9x0y1z2",
+     "name": "Honduran Sunrise",
+     "region": "Central America",
+     "country": "Honduras",
+     "beans": "Arabica",
+     "roastLevel": "Medium",
+     "image":"data:image/jpeg;base64,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",
+     "altitude": {
+      "minAltitude": 1300,
+      "maxAltitude": 1700
+     },
+     "processingMethod": "Washed",
+     "certification": [
+      "Organic",
+      "Fair Trade",
+      "Rainforest Alliance"
+     ],
+     "description": "Experience a smooth, mild cup with notes of milk chocolate and honey, courtesy of the Honduran Sunrise coffee."
+    },
+    {
+     "id": "a3b4c5d6",
+     "name": "Mexican Chiapas",
+     "region": "Central America",
+     "country": "Mexico",
+     "beans": "Arabica",
+     "roastLevel": "Medium-Light",
+     "image":"https://images.squarespace-cdn.com/content/v1/599dab46f14aa1467634f7f2/1585340713763-S7UDFWUOLVH5APAHG8N1/12oz+Mexico.jpg",
+     "altitude": {
+      "minAltitude": 1000,
+      "maxAltitude": 1600
+     },
+     "processingMethod": "Washed",
+     "certification": [
+      "Fair Trade",
+      "Organic"
+     ],
+     "description": "Enjoy the subtle, bright flavors of Mexican Chiapas coffee, featuring a crisp acidity and notes of citrus and chocolate."
+    },
+    {
+     "id": "i1j2k3l4",
+     "name": "Jamaican Blue Mountain",
+     "region": "Central America",
+     "country": "Jamaica",
+     "beans": "Arabica",
+     "roastLevel": "Medium",
+     "image":"https://cdn.shopify.com/s/files/1/0263/4471/8394/products/100-jamaican-blue-mountain-coffees.png",
+     "altitude": {
+      "minAltitude": 1000,
+      "maxAltitude": 2000
+     },
+     "processingMethod": "Washed",
+     "certification": [
+      "Rainforest Alliance"
+     ],
+     "description": "Indulge in the smooth, well-rounded flavor profile of Jamaican Blue Mountain coffee, with its mild acidity and notes of chocolate and spice."
+    },
+    {
+     "id": "m5n6o7p8",
+     "name": "Papua New Guinea Sigri Estate",
+     "region": "Asia",
+     "country": "Papua New Guinea",
+     "beans": "Arabica",
+     "roastLevel": "Medium",
+     "image":"https://kavosbankas.lt/1432-large_default/papua-new-guinea-sigri-estate.jpg",
+     "altitude": {
+      "minAltitude": 1400,
+      "maxAltitude": 1700
+     },
+     "processingMethod": "Washed",
+     "certification": [
+      "Fair Trade",
+      "Organic",
+      "Rainforest Alliance"
+     ],
+     "description": "Experience the vibrant flavors of Papua New Guinea Sigri Estate coffee, with its bright acidity, fruity notes, and smooth body."
+    },
+    {
+     "id": "q9r0s1t2",
+     "name": "Rwandan Bourbon",
+     "region": "Africa",
+     "country": "Rwanda",
+     "beans": "Arabica",
+     "roastLevel": "Medium-Dark",
+     "image":"https://res.cloudinary.com/dqlwzjuwr/image/upload/v1651140519/egro/nuboycwwlptvb4ovhcnr.jpg",
+     "altitude": {
+      "minAltitude": 1700,
+      "maxAltitude": 2000
+     },
+     "processingMethod": "Washed",
+     "certification": [
+      "Fair Trade",
+      "Organic"
+     ],
+     "description": "Discover the rich, bold flavors of Rwandan Bourbon coffee, featuring a full body, wine-like acidity, and notes of red fruit and dark chocolate."
+    },
+    {
+     "id": "u3v4w5x6",
+     "name": "Panama Boquete",
+     "region": "Central America",
+     "country": "Panama",
+     "beans": "Arabica",
+     "roastLevel": "Medium-Light",
+     "image":"https://i.pinimg.com/originals/36/e4/e8/36e4e82ffae1bdfbd707200122dac69f.jpg",
+     "altitude": {
+      "minAltitude": 1500,
+      "maxAltitude": 1800
+     },
+     "processingMethod": "Washed",
+     "certification": [
+      "Rainforest Alliance",
+      "Fair Trade"
+     ],
+     "description": "Savor the bright, clean flavors of Panama Boquete coffee, with its floral aroma, citrus notes, and a hint of nuttiness."
+    },
+    {
+     "id": "y7z8a9b0",
+     "name": "Ugandan Sipi Falls",
+     "region": "Africa",
+     "country": "Uganda",
+     "beans": "Arabica",
+     "roastLevel": "Medium",
+     "image":"https://cdn.shopify.com/s/files/1/0528/5527/5688/products/UGAN-PRODUCT_700x700.png?v=1648405541",
+     "altitude": {
+      "minAltitude": 1600,
+      "maxAltitude": 1900
+     },
+     "processingMethod": "Washed",
+     "certification": [
+      "Fair Trade",
+      "Organic",
+      "Rainforest Alliance"
+     ],
+     "description": "Immerse yourself in the complex flavor profile of Ugandan Sipi Falls coffee, boasting a bright acidity, rich body, and notes of berries and chocolate."
+    }
+   ]

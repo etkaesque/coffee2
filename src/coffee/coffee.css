@@ -1,0 +1,133 @@
+main {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-items: center;
+}
+main p,
+main a,
+main span,
+main ul {
+  font-family: "Roboto", sans-serif;
+}
+main h1,
+main h2,
+main h3,
+main h4 {
+  font-family: "Karma", serif;
+}
+main div {
+  width: 100%;
+}
+main .country {
+  font-style: italic;
+}
+@media (max-width: 999px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+main .image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-height: 350px;
+  margin-top: 50px;
+}
+main .button {
+  margin-top: 50px;
+  width: 200px;
+}
+main .coffee-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+main .coffee-visual {
+  display: flex;
+  flex-direction: column-reverse;
+}
+main .coffee-visual .certifications {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+main .coffee-visual .certifications .cert {
+  margin-top: 20px;
+  width: 50px;
+  height: auto;
+  display: inline;
+}
+main h3 {
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+}
+main .properties {
+  padding-left: 0px;
+  grid-row: 3/4;
+  list-style-type: none;
+  display: grid;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 1fr;
+  padding-left: 10px;
+  justify-content: space-around;
+  text-align: center;
+  align-items: baseline;
+}
+@media (max-width: 649px) {
+  main .properties {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+  }
+}
+main .properties *::before {
+  position: relative;
+  top: 2px;
+  left: -2px;
+}
+main .properties .proccesing::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(/assets/svgs/processing.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+main .properties .beans::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(/assets/svgs/beans.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+main .properties .roast::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(/assets/svgs/roast.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+main .properties .altitude::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(/assets/svgs/altitude.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=coffee.css.map */

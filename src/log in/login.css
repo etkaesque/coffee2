@@ -1,0 +1,41 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  height: 70vh;
+}
+main .input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F0EFEA;
+  padding: 120px 60px;
+  border-radius: 10px;
+  position: relative;
+}
+main label {
+  color: #4B3F2E;
+  margin: 10px;
+}
+main input {
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 7px;
+}
+main .button {
+  margin-top: 20px;
+}
+main .register {
+  position: absolute;
+  bottom: 20px;
+}
+main .register a {
+  text-decoration: none;
+  color: #A87852;
+}
+main .register a:hover {
+  color: #4B3F2E;
+}/*# sourceMappingURL=login.css.map */

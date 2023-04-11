@@ -1,0 +1,189 @@
+.video-wrapper {
+  position: relative;
+  margin-top: 50px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-wrapper video {
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.video-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+}
+.video-wrapper .page {
+  position: absolute;
+  top: 30%;
+  color: #F0EFEA;
+  width: 100%;
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.video-wrapper .page h1 {
+  font-family: "Karma", serif;
+  font-size: 3.5rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+@media (max-width: 649px) {
+  .video-wrapper .page h1 {
+    font-size: 2rem;
+  }
+}
+.video-wrapper .page p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0px;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+@media (max-width: 649px) {
+  .video-wrapper .page p {
+    font-size: 1.1rem;
+  }
+}
+
+main {
+  font-family: "Roboto", sans-serif;
+  padding: 0px 0px 0px 5px;
+  color: #3C2F24;
+}
+main .page-image {
+  max-height: 670px;
+}
+main .page-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 30% 110%;
+     object-position: 30% 110%;
+}
+main .landing-content {
+  margin-top: 30px;
+}
+main .landing-content .page-description {
+  padding-right: 30px;
+  text-align: center;
+}
+main .landing-content .page-description h1 {
+  font-family: "Karma", serif;
+  font-size: 3.5rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+main .landing-content .page-description p {
+  margin-top: 0px;
+  font-size: 1.2rem;
+}
+main .section-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  margin-top: 100px;
+  font-size: 1.2rem;
+}
+@media (max-width: 999px) {
+  main .section-content {
+    grid-template-columns: 1fr;
+  }
+}
+main .section-content .section-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+}
+main .section-content .section-description .leaf1 {
+  position: absolute;
+  top: 120px;
+  left: 70%;
+  opacity: 0.5;
+}
+main .section-content .section-description .leaf2 {
+  position: absolute;
+  bottom: 200px;
+  left: 20%;
+  opacity: 0.5;
+}
+main .section-content .section-description h2 {
+  font-family: "Karma", serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+main .organizations {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  text-align: center;
+}
+@media (max-width: 999px) {
+  main .organizations {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr auto;
+    gap: 10px;
+  }
+}
+main .organizations span {
+  margin-top: 10px;
+  grid-column: 1/5;
+  font-weight: 200;
+}
+@media (max-width: 999px) {
+  main .organizations span {
+    grid-row: 4/5;
+  }
+}
+main .organizations h2 {
+  font-size: 3rem;
+  grid-row: 1/2;
+  grid-column: 1/5;
+  text-align: center;
+  padding-bottom: 30px;
+}
+main .organizations .organization {
+  background-position: 50% 50%;
+  width: auto;
+  height: 175px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+main .organizations .organization-1 {
+  background-image: url(/assets/svgs/fairtrade.svg);
+}
+main .organizations .organization-2 {
+  background-image: url(/assets/svgs/organic.svg);
+}
+main .organizations .organization-3 {
+  background-image: url(/assets/svgs/rainforest.svg);
+}
+@media (max-width: 999px) {
+  main .organizations .organization-3 {
+    grid-row: 3/4;
+  }
+}
+main .organizations .organization-4 {
+  background-image: url(/assets/svgs/usda.svg);
+}
+@media (max-width: 999px) {
+  main .organizations .organization-4 {
+    grid-row: 3/4;
+  }
+}/*# sourceMappingURL=index.css.map */
