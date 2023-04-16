@@ -7,6 +7,7 @@ body {
 }
 
 .button {
+  text-decoration: none;
   background-color: #A87852;
   color: #F0EFEA;
   border: none;
