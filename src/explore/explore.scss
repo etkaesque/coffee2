@@ -31,7 +31,9 @@
         background-color: #A87852;
         cursor: pointer;
         text-decoration: none;
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
         
     }
