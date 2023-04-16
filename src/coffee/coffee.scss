@@ -1,210 +1,156 @@
-@use '../../components/responsive/responsive';
-
+@use "../../components/responsive/responsive";
 
 main {
+  p,
+  a,
+  span,
+  ul {
+    font-family: "Roboto", sans-serif;
+  }
 
-    p,
-    a,
-    span,
-    ul {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Karma", serif;
+  }
 
-        font-family: 'Roboto', sans-serif;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-items: center;
 
+  div {
+    width: 100%;
+  }
+
+  .country {
+    font-style: italic;
+  }
+
+  @include responsive.xl {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    max-height: 350px;
+    margin-top: 50px;
+  }
+
+  .button {
+    margin-top: 50px;
+    width: 200px;
+  }
+
+  .coffee-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .coffee-visual {
+    display: flex;
+
+    flex-direction: column-reverse;
+
+    .certifications {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      column-gap: 20px;
+
+      .cert {
+        margin-top: 20px;
+        width: 50px;
+        height: auto;
+        display: inline;
+      }
     }
+  }
 
-    h1,
-    h2,
-    h3,
-    h4 {
-        font-family: 'Karma', serif;
-    }
+  $icon-size: 20px;
 
+  h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+  }
 
+  .properties {
+    padding-left: 0px;
+    grid-row: 3/4;
+    list-style-type: none;
     display: grid;
-    grid-template-columns: 60% 40%;
-    justify-items: center;
+    column-gap: 25px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1fr;
+    padding-left: 10px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: baseline;
 
-    div {
-        width: 100%;
+    @include responsive.sm {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+
+      text-align: center;
     }
 
-    .country {
+    *::before {
+      position: relative;
 
-        font-style: italic;
+      top: 2px;
+      left: -2px;
     }
 
-    @include responsive.xl {
+    .proccesing::before {
+      content: "";
+      display: inline-block;
 
-
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-
+      width: $icon-size;
+      height: $icon-size;
+      background-image: url(../../assets/svgs/processing.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 25px;
+      height: 25px;
     }
 
-    .image {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        max-height: 350px;
-        margin-top: 50px;
+    .beans::before {
+      content: "";
+      display: inline-block;
 
+      width: $icon-size;
+      height: $icon-size;
+      background-image: url(../../assets/svgs/beans.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
     }
 
-    .button {
-        margin-top: 50px;
-        width: 200px;
+    .roast::before {
+      content: "";
+      display: inline-block;
+
+      width: $icon-size;
+      height: $icon-size;
+      background-image: url(../../assets/svgs/roast.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
     }
 
-    .coffee-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+    .altitude::before {
+      content: "";
+      display: inline-block;
+
+      width: $icon-size;
+      height: $icon-size;
+      background-image: url(../../assets/svgs/altitude.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
     }
-
-    .coffee-visual {
-
-        display: flex;
-
-        flex-direction: column-reverse;
-
-
-        .certifications {
-
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: center;
-            column-gap: 20px;
-
-            .cert {
-                margin-top: 20px;
-                width: 50px;
-                height: auto;
-                display: inline;
-            }
-
-
-
-        }
-
-
-
-
-    }
-
-
-    $icon-size: 20px;
-
-
-
-    h3 {
-        margin-bottom: 10px;
-        text-align: center;
-        position: relative;
-    }
-
-    .properties {
-        padding-left: 0px;
-        grid-row: 3/4;
-        list-style-type: none;
-        display: grid;
-        column-gap: 25px;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: 1fr;
-        padding-left: 10px;
-        justify-content: space-around;
-        text-align: center;
-        align-items: baseline;
-
-
-        @include responsive.sm {
-
-
-            grid-template-columns: 1fr;
-            grid-template-rows: auto;
-
-            text-align: center;
-
-        }
-
-
-
-        *::before {
-
-            position: relative;
-
-            top: 2px;
-            left: -2px;
-
-        }
-
-
-        .proccesing::before {
-
-            content: "";
-            display: inline-block;
-
-            width: $icon-size;
-            height: $icon-size;
-            background-image: url(../../assets/svgs/processing.svg);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            width: 25px;
-            height: 25px;
-
-
-
-
-
-
-        }
-
-
-        .beans::before {
-
-            content: "";
-            display: inline-block;
-
-            width: $icon-size;
-            height: $icon-size;
-            background-image: url(../../assets/svgs/beans.svg);
-            background-size: 100%;
-            background-repeat: no-repeat;
-
-
-        }
-
-        .roast::before {
-
-            content: "";
-            display: inline-block;
-
-            width: $icon-size;
-            height: $icon-size;
-            background-image: url(../../assets/svgs/roast.svg);
-            background-size: 100%;
-            background-repeat: no-repeat;
-
-        }
-
-        .altitude::before {
-
-            content: "";
-            display: inline-block;
-
-            width: $icon-size;
-            height: $icon-size;
-            background-image: url(../../assets/svgs/altitude.svg);
-            background-size: 100%;
-            background-repeat: no-repeat;
-
-
-        }
-
-
-    }
-
-
-
-
+  }
 }
