@@ -68,7 +68,7 @@ certifications.forEach(certification => {
     if (certification == "Organic"){
 
         certImage = document.createElement("img")
-        certImage.setAttribute("src",`/assets/svgs/usda.svg`)
+        certImage.setAttribute("src",`../../assets/svgs/usda.svg`)
         certImage.setAttribute("class",`cert`)
         certificationsWrapper.append(certImage)
 
@@ -77,7 +77,7 @@ certifications.forEach(certification => {
     if (certification == "Rainforest Alliance") {
 
         certImage = document.createElement("img")
-        certImage.setAttribute("src",`/assets/svgs/rainforest.svg`)
+        certImage.setAttribute("src",`../../assets/svgs/rainforest.svg`)
         certImage.setAttribute("class",`cert`)
         certificationsWrapper.append(certImage)
 
@@ -85,7 +85,7 @@ certifications.forEach(certification => {
     if (certification == "Fair Trade") {
 
         certImage = document.createElement("img")
-        certImage.setAttribute("src",`/assets/svgs/fairtrade.svg`)
+        certImage.setAttribute("src",`../../assets/svgs/fairtrade.svg`)
         certImage.setAttribute("class",`cert`)
         certificationsWrapper.append(certImage)
 
