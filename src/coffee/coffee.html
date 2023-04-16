@@ -8,8 +8,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Karma:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/components/styles/global.css">
-    <link rel="stylesheet" href="coffee.css">
+    <link rel="stylesheet" href="../../components/styles/global.css">
+    <link rel="stylesheet" href="../../src/coffe/coffee.css">
     <title>Roasted - Check Out This Coffee</title>
 </head>
 
@@ -22,7 +22,7 @@
 
             <div class="logo-wrapper-header">
 
-                <div class="logo-text-header"><a href="/src/index/index.html">Roasted</a></div>
+                <div class="logo-text-header"><a href="../../src/index/index.html">Roasted</a></div>
 
                 <svg class="logo-header" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                     xmlns:serif="http://www.serif.com/" fill="#000000" width="800px" height="800px" viewBox="0 0 64 64"
@@ -147,9 +147,9 @@
 
                 <ul class="navigation">
 
-                    <li><a href="/src/explore/explore.html">Explore</a></li>
-                    <li><a href="/src/news/news.html">News</a></li>
-                    <li><a href="/src/log in/login.html">Log In</a></li>
+                    <li><a href="../../src/explore/explore.html">Explore</a></li>
+                    <li><a href="../../src/news/news.html">News</a></li>
+                    <li><a href="../../src/log in/login.html">Log In</a></li>
 
                 </ul>
 
@@ -169,8 +169,107 @@
         </header>
 
 
+        <main>
+
+            <section class="page-description">
+                <h1>Find your favorite coffee</h1>
+            </section>
+
+            <section class="add-wrapper">
+                <div><a href="../../src/add/add.html" class="add-button">+</a></div>
+            </section>
 
 
+            <section class="filter">
+                <form action="" id="filterForm">
+                    <fieldset>
+                        <legend>Region</legend>
+                        <div>
+                            <input checked type="checkbox" id="southAmerica" name="regions" value="South America">
+                            <label for="southAmerica">South America</label>
+                        </div>
+                        <div>
+                            <input checked type="checkbox" id="centralAmerica" name="regions" value="Central America">
+                            <label for="centralAmerica">Central America</label>
+                        </div>
+                        <div>
+                            <input checked type="checkbox" id="africa" name="regions" value="Africa">
+                            <label for="africa">Africa</label>
+                        </div>
+                        <div>
+                            <input checked type="checkbox" id="asia" name="regions" value="Asia">
+                            <label for="asia">Asia</label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Beans</legend>
+
+                        <div>
+                            <input checked type="checkbox" id="arabica" name="beans" value="Arabica">
+                            <label for="arabica">Arabica</label>
+                        </div>
+
+                        <div>
+                            <input checked type="checkbox" id="robusta" name="beans" value="Robusta">
+                            <label for="robusta">Robusta</label>
+                        </div>
+
+                        <div>
+                            <input checked type="checkbox" id="mix" name="beans" value="Mix">
+                            <label for="mix">Mix</label>
+                        </div>
+
+
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Roast Level</legend>
+
+                        <div>
+                            <input type="checkbox" id="all" name="all" value="all" checked>
+                            <label for="all">Any</label>
+                        </div>
+
+                        <input disabled type="range" id="roastRange" name="roastRange" min="1" max="5" step="1"
+                            value="3">
+                        <br>
+                        <span id="roastLabel"></span>
+
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Altitude</legend>
+
+
+
+                        <input type="range" id="altitudeRange" name="altitudeRange" min="0" max="3000" step="100"
+                            value="500">
+                        <br>
+                        <span id="altitudeLabel">500 meters</span>
+
+
+                    </fieldset>
+
+                    <button class="button" id="filterButton" type="submit" value="Submit">Filter</button>
+         
+
+                </form>
+
+     
+
+            </section>
+
+            <section class="cards-section">
+
+
+
+            </section>
+
+
+        </main>
     </div>
 
     <div class="wrapper">
@@ -391,8 +490,8 @@
 
 
 
-    <script src="/components/scripts/dropdown.js"></script>
-    <script src="coffee.js"></script>
+    <script src="../../components/scripts/dropdown.js"></script>
+    <script src="../../src/coffee/coffee.js"></script>
 </body>
 
 </html>

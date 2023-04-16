@@ -98,7 +98,7 @@ main .properties .proccesing::before {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(/assets/svgs/processing.svg);
+  background-image: url(../../assets/svgs/processing.svg);
   background-size: 100%;
   background-repeat: no-repeat;
   width: 25px;
@@ -109,7 +109,7 @@ main .properties .beans::before {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(/assets/svgs/beans.svg);
+  background-image: url(../../assets/svgs/beans.svg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -118,7 +118,7 @@ main .properties .roast::before {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(/assets/svgs/roast.svg);
+  background-image: url(../../assets/svgs/roast.svg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -127,7 +127,7 @@ main .properties .altitude::before {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(/assets/svgs/altitude.svg);
+  background-image: url(../../assets/svgs/altitude.svg);
   background-size: 100%;
   background-repeat: no-repeat;
 }/*# sourceMappingURL=coffee.css.map */
